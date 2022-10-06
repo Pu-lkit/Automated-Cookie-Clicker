@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-chrome_driver_path = "/home/pulkit/Workstation/chromedriver_linux64/chromedriver"
+chrome_driver_path = PATH TO CHROME DRIVER
 
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 driver.get("http://orteil.dashnet.org/experiments/cookie/ ")
